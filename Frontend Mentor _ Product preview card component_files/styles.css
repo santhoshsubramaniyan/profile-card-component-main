@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&
+family=Montserrat:wght@500;700&display=swap');
+
+
+.root {
+  --ff-fraunces: 'Fraunces', serif;
+  --ff-montserrat: 'Montserrat', sans-serif;
+  --clr-dark-cyan: hsl(158, 36%, 37%);
+  --clr-cream: hsl(30, 38%, 92%);
+  --clr-very-dark-blue: hsl(212, 21%, 14%);
+  --clr-dark-grayish-blue: hsl(228, 12%, 48%);
+  --clr-white: hsl(0, 0%, 100%);
+  }
+
+.html {
+  font-size: 14px;
+}
+
+body {
+  background-color: var(--clr-cream);
+
+
+  height: 100vh;
+  width: 100vw;
+
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.card {
+  background-color: red;
+  width: 35rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.card-left-container {
+  width: 50%;
+}
+
+.img-perfume-desktop {
+  width: 100%;
+  height: auto;
+}
+
+.card-right-container {
+  width: 50%;
+}
